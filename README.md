@@ -1,2 +1,2 @@
 # cs251
-Grade Assignment Repo for CS251
+Grader Assignment Repo for CS251
