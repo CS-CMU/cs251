@@ -32,4 +32,17 @@ public:
          WRITE YOUR CODE HERE
          */
     }
+    
+    void printCardList(){
+        /*
+         DO NOT DELETE OR EDIT
+         */
+        cout << "[ ";
+        Card* ptr = head;
+        while(ptr!=NULL){
+            cout << ptr->name << " ";
+            ptr = ptr->next;
+        }
+        cout << "]\n";
+    }
 };
